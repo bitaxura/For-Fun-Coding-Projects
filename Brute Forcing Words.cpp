@@ -18,7 +18,7 @@ int main(){
         }
         
             this_thread::sleep_for(chrono::milliseconds(30)); //Adjusts the delay added to change display speed
-            cout<<letters[i]/*<<"\r"*/<<endl; //Uncomment to update text on the same line
+            cout<<letters[i]/*<<"\r"*/<<endl; //Uncomment and remove endl to update text on the same line
             cout.flush();
 
             if(letters[i] == c){
