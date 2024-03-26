@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    string word = "HELLO WORLD"; //You can change the word here, it must be in all uppercase, if you want to make it all lowercase, change the for loop below
+    string word = "HELLO WORLD"; //Change the word here, by default it must be all UPPERCASE, to change to all lowercase, edit the for loop below
     vector<char> words;
     int i = 0;
 
@@ -22,8 +22,8 @@ int main(){
                 words.push_back(char(i));
                 break;
             }
-            else if(c == ' '){
-                words.push_back(' ');
+            else if(c == char(32)){
+                words.push_back(char(32));
                 break;
             }
         }
