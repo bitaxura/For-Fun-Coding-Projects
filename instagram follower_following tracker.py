@@ -1,5 +1,4 @@
 import datetime
-file = open("Instagram Number History\instagram.csv", "a")
 
 class gatherData:
     def __init__(self):
